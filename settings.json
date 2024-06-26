@@ -1,0 +1,81 @@
+{
+    "vim.easymotion": true,
+    "vim.incsearch": true,
+    "vim.useSystemClipboard": true,
+    "vim.useCtrlKeys": true,
+    "vim.hlsearch": true,
+    "vim.insertModeKeyBindings": [
+      {
+        "before": ["j", "j"],
+        "after": ["<Esc>"]
+      }
+    ],
+    "vim.normalModeKeyBindingsNonRecursive": [
+      {
+        "before": ["<leader>", "d"],
+        "after": ["d", "d"]
+      },
+      {
+        "before": ["<C-n>"],
+        "commands": [":nohl"]
+      },
+      {
+        "before": ["K"],
+        "commands": ["lineBreakInsert"],
+        "silent": true
+      }
+    ],
+    "vim.leader": "<space>",
+    "vim.handleKeys": {
+      "<C-a>": false,
+      "<C-f>": false
+    },
+    "editor.fontSize": 18,
+    "code-runner.runInTerminal": true,
+    "workbench.localHistory.exclude": {
+      "": true
+    },
+    "files.watcherExclude": {
+      "**/.git": true
+    },
+    "files.exclude": {
+      "*.gz": true,
+      "*.ilg": true,
+      "*.log": true,
+      "*.out": true,
+      "*.toc": true,
+      "**/*.aux": true,
+      "**/*.bbl": true,
+      "**/*.blg": true,
+      "**/*.fdb_latexmk": true,
+      "**/*.fls": true,
+      "**/*.log": true,
+      "**/*.out": true,
+      "**/*.synctex.gz": true,
+      "**/*.toc": true
+    },
+    "workbench.colorTheme": "Vim Deep Dark",
+    "[python]": {
+      "editor.formatOnType": true,
+      "editor.formatOnSave": true
+    },
+    "editor.autoClosingBrackets": "always",
+    "jupyter.askForKernelRestart": false,
+    "python.terminal.launchArgs": [
+
+    ],
+    "flake8.importStrategy": "fromEnvironment",
+    "python.analysis.diagnosticMode": "workspace",
+    "editor.rulers": [
+      
+      79
+    ],
+    "latex-workshop.intellisense.biblatexJSON.replace": {
+
+    },
+    "latex-workshop.intellisense.bibtexJSON.replace": {},
+    "json.schemas": [],
+    "breadcrumbs.enabled": false,
+    "editor.stickyScroll.enabled": false,
+  
+}
